@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { connect } from 'react-redux';
 import { Field, reduxForm} from 'redux-form';
 import { getIndividualProject,postEditedProject,clearProjectDetails } from '../../actions';
-import { bindActionCreators } from '../../../../../../../AppData/Local/Microsoft/TypeScript/2.7/node_modules/redux';
+import { bindActionCreators } from 'redux';
 
 
 
